@@ -21,6 +21,7 @@
 		C4DA96AE1864137000BC613C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DA96901864137000BC613C /* UIKit.framework */; };
 		C4DA96B61864137000BC613C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4DA96B41864137000BC613C /* InfoPlist.strings */; };
 		C4DA96B81864137000BC613C /* FireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA96B71864137000BC613C /* FireTests.m */; };
+		C4DA96C31864146000BC613C /* GPJView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DA96C21864146000BC613C /* GPJView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C4DA96B31864137000BC613C /* FireTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FireTests-Info.plist"; sourceTree = "<group>"; };
 		C4DA96B51864137000BC613C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4DA96B71864137000BC613C /* FireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireTests.m; sourceTree = "<group>"; };
+		C4DA96C11864146000BC613C /* GPJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPJView.h; sourceTree = "<group>"; };
+		C4DA96C21864146000BC613C /* GPJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPJView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C4DA969E1864137000BC613C /* Main.storyboard */,
 				C4DA96A11864137000BC613C /* GPJViewController.h */,
 				C4DA96A21864137000BC613C /* GPJViewController.m */,
+				C4DA96C11864146000BC613C /* GPJView.h */,
+				C4DA96C21864146000BC613C /* GPJView.m */,
 				C4DA96A41864137000BC613C /* Images.xcassets */,
 				C4DA96931864137000BC613C /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DA96C31864146000BC613C /* GPJView.m in Sources */,
 				C4DA969D1864137000BC613C /* GPJAppDelegate.m in Sources */,
 				C4DA96A31864137000BC613C /* GPJViewController.m in Sources */,
 				C4DA96991864137000BC613C /* main.m in Sources */,
@@ -461,6 +467,7 @@
 				C4DA96BD1864137000BC613C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4DA96BE1864137000BC613C /* Build configuration list for PBXNativeTarget "FireTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				C4DA96C01864137000BC613C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
