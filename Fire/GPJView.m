@@ -20,7 +20,7 @@
     CAEmitterLayer *emitter = (CAEmitterLayer *)self.layer;
     emitter.emitterShape = kCAEmitterLayerPoint;
     emitter.renderMode = kCAEmitterLayerOldestLast;
-    emitter.emitterPosition = CGPointMake(self.frame.size.width / 2 - 40, 300);
+    emitter.emitterPosition = CGPointMake(self.frame.size.width / 2 , self.frame.size.height*3/5);
     emitter.emitterCells = @[[self starsEmitterCell], [self fireEmitterCell]];
 }
 
